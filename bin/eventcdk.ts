@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { EventcdkStack } from '../lib/eventcdk-stack';
+import { EventcdkStack } from '../lib/eventcdk-stack'; 
 
 const app = new cdk.App();
 new EventcdkStack(app, 'EventcdkStack', {
